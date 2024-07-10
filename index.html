@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Fashions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            /* background-image: url('path_to_your_image.jpg'); */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #c4b3b3;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+            font-style:italic;
+        }
+
+        header a {
+            color: #a599cb;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-style: normal;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header h1 {
+            float: left;
+            margin-top: 0;
+        }
+
+        nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .category {
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            margin: 1.5%;
+        }
+
+        /* .category img {
+            width: 100%;
+            height: auto;
+        } */
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body background="./bgimg4.jpg" >
+
+<header>
+    <div class="container">
+        <h1>Aurora Fashions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Aurora Fashions</h2>
+            <p>Find the latest trends in fashion for men, women, and kids.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Explore Our Collections</h2>
+            <div class="category">
+                <a href="men.html">
+                    <img src="./men1.jpg" alt="Men's Collection" width="200" height="200">
+                    <h3>Men</h3>
+                </a>
+            </div>
+            <div class="category">
+                <a href="women.html">
+                    <img src="./women.jpg" alt="Women's Collection" width="200" height="200">
+                    <h3>Women</h3>
+                </a>
+            </div>
+            <div class="category">
+                <a href="kids.html">
+                    <img src="./kids.jpg" alt="Kids' Collection" width="200" height="200">
+                    <h3>Kids</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, please contact us.</p>
+            <!-- Contact form or contact information can be added here -->
+        </div>
+    </section>
+
+    <section id="help">
+        <div class="container">
+            <h2>Help Center</h2>
+            <p>Get help with your orders, account, or any other issues.</p>
+            <!-- Help content can be added here -->
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Aurora Fashions. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

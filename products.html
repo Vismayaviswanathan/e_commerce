@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            border-bottom: #77aaff 3px solid;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        .btn {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body background="./bgimg12.jpg">
+
+<header>
+    <div class="container">
+        <h1>Product Categories</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#men">Men</a></li>
+                <li><a href="#women">Women</a></li>
+                <li><a href="#kids">Kids</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="men">
+        <div class="container">
+            <h2>Men's Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="./men-tshirt.jpg" alt="Men's Product 1" width="290px" height="210px">
+                    <h3>Men's Stylish Shirt</h3>
+                    <p>This stylish shirt is perfect for any occasion. Made from high-quality materials.</p>
+                    <p>Price: 499/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="./men-jeans1.webp" alt="Men's Product 2" width="290px" height="210px">
+                    <h3>Men's trendy jean</h3>
+                    <p>This classy jean is perfect for any occasion. Made from high-quality materials.</p>
+                    <p>Price: 799/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="./men-shirt.jpg" alt="Men's Product 2" width="290px" height="210px">
+                    <h3>Men's trendy jean</h3>
+                    <p>This classy shirt is perfect for formal occasion. Made from high-quality materials.</p>
+                    <p>Price: 899/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="women">
+        <div class="container">
+            <h2>Women's Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="./womenpartywear.jpg" alt="Women's Product 1" width="290px" height="210px">
+                    <h3>Women's Elegant Dress</h3>
+                    <p>This elegant dress is perfect for any special occasion. Made from luxurious materials.</p>
+                    <p>Price: 3000/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="./womenwear.html" alt="Women's Product 1" width="290px" height="210px">
+                    <h3>Women's trendy Dress</h3>
+                    <p>This elegant dress is perfect for vacations and outings. Made from pure cotton materials.</p>
+                    <p>Price: 999/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="./women-sarree.jpg" alt="Women's Product 1" width="290px" height="210px">
+                    <h3>Women's traditional saree</h3>
+                    <p>This elegant dress is perfect for traditional functions and programs. It is made from high-quality materials.</p>
+                    <p>Price: 1599/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kids">
+        <div class="container">
+            <h2>Kids' Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="./kids-tshirt.jpg" alt="Kids' Product 1" width="290px" height="210px">
+                    <h3>Kids' T-Shirt</h3>
+                    <p>This cute T-shirt is perfect for any occasion. Made from high-quality materials.</p>
+                    <p>Price: 299/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="./kids-jeans.jpg" alt="Kids' Product 2" width="290px" height="210px">
+                    <h3>Kids' Jeans</h3>
+                    <p>This elegant dress is perfect for vacations and outings. Made from pure cotton materials.</p>
+                    <p>Price: 999/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="./kids-partywear.jpg" alt="Kids' Product 2" width="290px" height="210px">
+                    <h3>Kids' Jeans</h3>
+                    <p>These comfortable wear is perfect for any functions and parties. It is made from high-quality materials.</p>
+                    <p>Price: 1299/-</p>
+                    <button class="btn" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Simple E-commerce. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

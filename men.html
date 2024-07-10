@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Fashion - Aurora Fashions</title>
+    <style>
+        /* Internal CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product-details {
+            flex: 1;
+            padding: 0 20px;
+        }
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .product-description {
+            margin-bottom: 20px;
+        }
+        .product-price {
+            font-size: 20px;
+            color: #c0392b;
+            margin-bottom: 10px;
+        }
+        .size-selector {
+            margin-bottom: 20px;
+        }
+        .action-buttons {
+            display: flex;
+            align-items: center;
+        }
+        .action-buttons button {
+            margin-right: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+        }
+        .action-buttons .add-to-cart {
+            background-color: #3498db;
+            color: #fff;
+        }
+        .action-buttons .add-to-cart:hover {
+            background-color: #2980b9;
+        }
+        .action-buttons .buy-now {
+            background-color: orange;
+            color: #fff;
+        }
+        .action-buttons .buy-now:hover {
+            background-color: #e67e22;
+        }
+        .action-buttons .add-to-favorites {
+            background-color: #3498db;
+            color: #fff;
+        }
+        .action-buttons .add-to-favorites:hover {
+            background-color: #2980b9;
+        }
+        header .home-button {
+            background: #00050c;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+        header .home-button:hover {
+            background: #559edd;
+        }
+    </style>
+</head>
+<body background="./bgimg5.jpg">
+    <header>
+        <div class="container">
+            <a href="index.html" class="home-button">Home</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="product">
+            <div class="product-details">
+                <div class="product-title">Men's Stylish Shirt</div>
+                <div class="product-description">
+                    <p>This stylish shirt is perfect for any occasion. Made from high-quality materials.</p>
+                </div>
+                <div class="product-price">499/-</div>
+                <div class="size-selector">
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                </div>
+                <div class="action-buttons">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-favorites">Add to Favorites</button>
+                    <button class="buy-now" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-image">
+                <img src="./men-tshirt.jpg" alt="Product Image" width="200" height="200">
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="product">
+            <div class="product-details">
+                <div class="product-title">Men's trendy jean</div>
+                <div class="product-description">
+                    <p>This classy jean is perfect for any occasion. Made from high-quality materials.</p>
+                </div>
+                <div class="product-price">799/-</div>
+                <div class="size-selector">
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                </div>
+                <div class="action-buttons">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-favorites">Add to Favorites</button>
+                    <button class="buy-now" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-image">
+                <img src="men-jeans1.webp" alt="Product Image" width="200" height="200">
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="product">
+            <div class="product-details">
+                <div class="product-title">Men's Shirt</div>
+                <div class="product-description">
+                    <p>This classy shirt is perfect for formal occasion. Made from high-quality materials.</p>
+                </div>
+                <div class="product-price">899/-</div>
+                <div class="size-selector">
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                </div>
+                <div class="action-buttons">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-favorites">Add to Favorites</button>
+                    <button class="buy-now" onclick="location.href='order.html'">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-image">
+                <img src="men-shirt.jpg" alt="Product Image" width="200" height="200">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
